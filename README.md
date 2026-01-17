@@ -2,8 +2,6 @@
 
 Repository containing the practical work code for the CE module intervention in the TRIED master's program (January 2026).
 
-Dépôt contenant le code des travaux pratiques de l'intervention au module CE du master TRIED (Janvier 2026).
-
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -19,7 +17,6 @@ This repository contains practical exercises and solutions for the **Citizen Eng
 
 **Tech Stack:**
 - Python 3.13+
-- Apache Airflow (workflow orchestration)
 - FastAPI (API framework)
 - MLflow (ML tracking)
 - Scikit-learn (ML library)

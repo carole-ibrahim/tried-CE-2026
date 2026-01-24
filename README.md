@@ -80,6 +80,10 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+## Install Docker:
+Make sure you have docker installed on your machine, for Mac users, download the docker desktop app (emulates docker like a linux machine)
+[install docker desktop ](https://docs.docker.com/desktop/) (easier for all platforms) otherwise for linux users you can install [docker engine](https://docs.docker.com/engine/install)
+
 ## License
 
 This project is licensed under the terms of the MIT License.

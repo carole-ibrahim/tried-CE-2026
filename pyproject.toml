@@ -12,4 +12,5 @@ dependencies = [
     "pandas>=2.3.3",
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
+    "virtualenv>=20.36.1",
 ]

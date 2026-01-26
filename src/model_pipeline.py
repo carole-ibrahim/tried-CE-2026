@@ -117,4 +117,34 @@ def visualize_results( cm, target_names, feature_importance_df, fig_path='model_
     plt.show()
     return fig
 
+def main():
+    """
+    Complete ML workflow execution.
+    
+    Workflow Steps:
+    1. Load and split data
+    2. Create preprocessing pipeline  
+    3. Build model pipeline
+    4. Train model
+    
+    Return: trained model
+    """
+    
+    # 1. Data Loading
+    X, y, feature_names, target_names = load_and_explore_data()
+
+    # 2. Data Splitting  
+    X_train, X_test, y_train, y_test = create_train_test_split(X, y)
+
+    # 3. Preprocessing Pipeline
+    preprocessor = create_preprocessing_pipeline()
+    
+    # 4. Model Pipeline
+    pipeline = create_model_pipeline(preprocessor)
+
+    # 5. Model Training
+    trained_pipeline = train_model(pipeline, X_train, y_train)
+
+    return trained_pipeline
+
 

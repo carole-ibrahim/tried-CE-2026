@@ -37,7 +37,7 @@ chmod +x setup_scripts/bootstrap.sh
 
 **Windows (PowerShell)**
 ```bash
-pwsh setup_scripts/bootstrap.ps1
+powershell setup_scripts/bootstrap.ps1
 ```
 
 ### Option 3 : Conda
